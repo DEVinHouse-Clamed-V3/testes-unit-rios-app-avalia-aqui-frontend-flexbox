@@ -1,3 +1,4 @@
+import React from "react";
 import api from "../services/api";
 import { useEffect, useState } from "react";
 import { FlatList, Image, SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity, View } from "react-native";

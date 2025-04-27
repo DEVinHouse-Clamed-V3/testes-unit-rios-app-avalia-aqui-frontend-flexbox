@@ -1,3 +1,4 @@
+import React from "react";
 import { SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { NavProps } from "../interfaces/NavProps";
 import { globalStyles } from "../global/globalStyles";
@@ -5,7 +6,7 @@ import { globalStyles } from "../global/globalStyles";
 export default function Intro({ navigation }: NavProps) {
     return (
         <SafeAreaView style={globalStyles.container}>
-            <StatusBar barStyle="auto" />
+            <StatusBar barStyle="default" />
             <Text style={globalStyles.title}>Avalie Aqui</Text>
 
             <Text style={globalStyles.text}>Escolha um produto que deseja avaliar e compartilhe sua experiência com outros consumidores.</Text>
